@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blue;
+}
+
+p {
+    font-size: 14px;
+}
+
+#imagen {
+    width: 100%;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 425px){
+    body {
+        background-color: green;
+    }
+
+    p {
+        font-size: 18px;
+    }
+    
+    #imagen {
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px){
+    body {
+        background-color: red;
+    }
+
+    p {
+        font-size: 24px;
+    }
+    
+    #imagen {
+        width: 50%;
+    }
+}
